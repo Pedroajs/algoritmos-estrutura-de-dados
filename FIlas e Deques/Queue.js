@@ -59,3 +59,5 @@ console.log(queue.size());
 queue.dequeue();
 queue.dequeue();
 console.log(queue.toString(), queue.size());
+
+module.exports = Queue;
