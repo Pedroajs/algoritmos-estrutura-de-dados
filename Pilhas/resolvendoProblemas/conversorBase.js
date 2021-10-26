@@ -1,4 +1,5 @@
-import Stack from "../StackObj";
+// import Stack from "../StackObj";
+
 function baseConversor(decNumber, base){
     const remStack = new Stack();
 
@@ -20,3 +21,4 @@ function baseConversor(decNumber, base){
     }
     return baseString;
 }
+
